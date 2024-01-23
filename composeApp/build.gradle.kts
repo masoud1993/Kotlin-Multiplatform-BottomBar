@@ -43,7 +43,7 @@ kotlin {
             implementation(compose.ui)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
-            implementation("br.com.devsrsouza.compose.icons:font-awesome:1.1.0")
+            implementation(libs.font.awesome)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
